@@ -1,0 +1,64 @@
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/blue";
+
+
+// mdi icon class
+.mdi {
+  font-family: materialdesignicons, "Material Design Icons";
+}
+.police-harabara {
+  font-family: harabara, "harabara";
+}
+
+.police-arialnarrow {
+  font-family: arialnarrow, "arialnarrow";
+}
+
+
+// Components
+
+Button, Label, Span, TextField, TextView  {
+  font-size: 15;
+  font-family: arialnarrow, "arialnarrow";
+  color: #37474f;
+}
+
+.bg-primary {
+  background-color: #B34BDD!important;
+}
+
+ActionBar {
+  /*background: linear-gradient(to left, #E6007E, #1D71B8 );*/
+  background-color: #B34BDD;
+}
+
+.btn-degrade {
+  /*background: linear-gradient(to left, #E6007E, #1D71B8 );*/
+  background-color: #B34BDD;
+}
+
+.btn-transparent {
+  border: none;
+  background-color: transparent;
+}
+
+
+.bg-blue {
+  background-color: #1D71B8
+}
+
+.blue {
+  color: #1D71B8
+}
+
+.bg-pink {
+  background-color: #E6007E
+}
+
+.pink {
+  color: #E6007E
+}
+
+.nt-drawer__header {
+  background-color: #E6007E;
+}

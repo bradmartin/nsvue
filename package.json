@@ -1,0 +1,42 @@
+{
+  "name": "nsvue",
+  "main": "app.js",
+  "version": "1.0.0",
+  "description": "Une application de test",
+  "author": "Fabiyo <iyongofabrice@gmail.com>",
+  "repository": "<fill-your-repository-here>",
+  "homepage": "https://github.com/NativeScript/nativescript-app-templates",
+  "bugs": {
+    "url": "https://github.com/NativeScript/NativeScript/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@nativescript-community/ui-material-cardview": "^5.2.3",
+    "@nativescript/core": "^7.2.0",
+    "@nativescript/theme": "~2.3.0",
+    "axios": "^0.21.1",
+    "nativescript-ui-listview": "^9.1.0",
+    "nativescript-ui-sidedrawer": "^9.0.3",
+    "nativescript-vue": "^2.8.3",
+    "vuex": "^3.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@nativescript/android": "7.0.1",
+    "@nativescript/types": "^7.2.0",
+    "@nativescript/webpack": "^3.0.9",
+    "@types/node": "^14.6.2",
+    "babel-loader": "^8.1.0",
+    "nativescript-vue-template-compiler": "^2.8.1",
+    "nativescript-worker-loader": "~0.12.1",
+    "sass": "^1.26.10",
+    "typescript": "^3.9.7",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3"
+  },
+  "private": "true",
+  "readme": "NativeScript Application"
+}
